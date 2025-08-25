@@ -1,0 +1,86 @@
+.texts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.text-card {
+  background-color: #f0e6d2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.text-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-title {
+  color: #8B0000;
+  margin-bottom: 0.5rem;
+}
+
+.text-description {
+  margin: 0 0 1rem 0;
+}
+
+.preservation-list {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.preservation-item {
+  margin-bottom: 0.5rem;
+}
+
+.preservation-item:last-child {
+  margin-bottom: 0;
+}
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.language-card {
+  background-color: #f9f7f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #8B0000;
+  transition: transform 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-5px);
+}
+
+.language-title {
+  color: #5D0000;
+  margin-bottom: 0.5rem;
+}
+
+.language-description {
+  margin: 0 0 1rem 0;
+}
+
+.sources-section {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #f9f7f0;
+  border-radius: 4px;
+  border-left: 2px solid #8B0000;
+}
+
+.sources-section h3,
+.sources-section h4,
+.sources-section h5 {
+  color: #5D0000;
+  margin-bottom: 0.5rem;
+}
+
+.sources-section ul {
+  margin: 0 0 0 1rem;
+  font-size: 0.9rem;
+}

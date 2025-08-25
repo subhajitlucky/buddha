@@ -1,0 +1,114 @@
+.teachings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.teaching-card {
+  background-color: #f0e6d2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.teaching-card:hover {
+  transform: translateY(-5px);
+}
+
+.teaching-title {
+  color: #8B0000;
+  margin-bottom: 0.5rem;
+}
+
+.teaching-description {
+  margin: 0 0 1rem 0;
+}
+
+.path-category {
+  margin-bottom: 2rem;
+}
+
+.path-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  color: #8B0000;
+  border-bottom: 2px solid #f0e6d2;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-factors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.factor {
+  background-color: #f9f7f0;
+  padding: 1rem;
+  border-radius: 4px;
+  border-left: 4px solid #8B0000;
+  margin-bottom: 1rem;
+}
+
+.factor:last-child {
+  margin-bottom: 0;
+}
+
+.factor-title {
+  color: #5D0000;
+  margin-bottom: 0.5rem;
+}
+
+.factor-description {
+  margin: 0 0 1rem 0;
+}
+
+.concepts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.concept-card {
+  background-color: #f0e6d2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.concept-card:hover {
+  transform: translateY(-5px);
+}
+
+.concept-title {
+  color: #8B0000;
+  margin-bottom: 0.5rem;
+}
+
+.concept-description {
+  margin: 0 0 1rem 0;
+}
+
+.sources-section {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #f9f7f0;
+  border-radius: 4px;
+  border-left: 2px solid #8B0000;
+}
+
+.sources-section h3,
+.sources-section h4,
+.sources-section h5 {
+  color: #5D0000;
+  margin-bottom: 0.5rem;
+}
+
+.sources-section ul {
+  margin: 0 0 0 1rem;
+  font-size: 0.9rem;
+}
